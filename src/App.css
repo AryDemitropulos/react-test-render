@@ -27,6 +27,34 @@
 .App-link {
   color: #61dafb;
 }
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-col {
+  flex-direction: column;
+}
+.btn-container {
+  width: 300px;
+}
+
+.btn-container > button {
+  height: 50px;
+  min-width: 50px;
+}
+.component {
+  min-height: 400px;
+  padding: 15px;
+  margin: 15px;
+  margin-top: 20px;
+  border: 2px white solid;
+}
+
+.console-inputs > div {
+  margin: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
